@@ -1,0 +1,98 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.08.05 09:25:30 =~=~=~=~=~=~=~=~=~=~=~=
+[  288.162978] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  288.171527] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  288.186339] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  288.200463] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  288.211852] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  288.229489] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  288.246940] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  288.328374] msm_pcm_volume_ctl_get substream not found
+[  288.666258] type=1400 audit(1620451439.102:380): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  288.829749] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  288.838717] core_set_license: Invalid cal block to send
+[  289.069631] type=1400 audit(1620451439.502:381): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  290.083967] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  290.109845] afe_callback: cmd = 0x100fb returned error = 0x3
+[  290.115688] afe_callback: AFE Get Param failed with error 3
+[  292.162892] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  292.171357] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  292.185988] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  292.199544] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  292.210557] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  292.227815] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  292.245120] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  292.326527] msm_pcm_volume_ctl_get substream not found
+[  292.620319] type=1400 audit(1620451443.052:382): avc: denied { search } for pid=3122 comm="pulseaudio" name="vendor" dev="mmcblk0p14" ino=14197 scontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tcontext=system_u:object_r:default_t:s0 tclass=dir permissive=0
+[  292.644357] type=1400 audit(1620451443.062:383): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  293.614619] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  293.640408] afe_callback: cmd = 0x100fb returned error = 0x3
+[  293.646252] afe_callback: AFE Get Param failed with error 3
+[  295.682884] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  295.691344] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  295.705797] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  295.718920] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  295.729714] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  295.746925] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  295.764144] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  295.846255] msm_pcm_volume_ctl_get substream not found
+[  296.190607] type=1400 audit(1620451446.622:384): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  296.300934] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  296.309861] core_set_license: Invalid cal block to send
+[  296.597638] type=1400 audit(1620451447.022:385): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  297.597110] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  297.624426] afe_callback: cmd = 0x100fb returned error = 0x3
+[  297.630271] afe_callback: AFE Get Param failed with error 3
+[  299.682899] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  299.691361] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  299.707582] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  299.721789] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  299.732765] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  299.750010] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  299.767248] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  299.848457] msm_pcm_volume_ctl_get substream not found
+[  300.141210] type=1400 audit(1620451450.582:386): avc: denied { search } for pid=3125 comm="pulseaudio" name="vendor" dev="mmcblk0p14" ino=14197 scontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tcontext=system_u:object_r:default_t:s0 tclass=dir permissive=0
+[  300.165228] type=1400 audit(1620451450.582:387): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  301.132174] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  301.158016] afe_callback: cmd = 0x100fb returned error = 0x3
+[  301.163859] afe_callback: AFE Get Param failed with error 3
+[  303.202933] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  303.211393] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  303.227172] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  303.240543] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  303.251834] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  303.269420] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  303.286933] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  303.367848] msm_pcm_volume_ctl_get substream not found
+[  303.720449] type=1400 audit(1620451454.142:388): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  303.825574] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  303.834519] core_set_license: Invalid cal block to send
+[  304.065417] type=1400 audit(1620451454.502:389): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  305.073359] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  305.099389] afe_callback: cmd = 0x100fb returned error = 0x3
+[  305.105233] afe_callback: AFE Get Param failed with error 3
+[  307.122932] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  307.131458] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  307.146231] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  307.159773] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  307.170657] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  307.187936] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  307.204992] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  307.286644] msm_pcm_volume_ctl_get substream not found
+[  307.578586] type=1400 audit(1620451458.012:390): avc: denied { search } for pid=3128 comm="pulseaudio" name="vendor" dev="mmcblk0p14" ino=14197 scontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tcontext=system_u:object_r:default_t:s0 tclass=dir permissive=0
+[  307.602622] type=1400 audit(1620451458.022:391): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  308.574592] msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+[  308.600398] afe_callback: cmd = 0x100fb returned error = 0x3
+[  308.606242] afe_callback: AFE Get Param failed with error 3
+[  310.642904] afe_get_doa_tracking_mon: get param port 0xb021 param id[0x1097d] failed -110
+[  310.651363] msm_doa_tracking_mon_get: Error getting Doa Tracking Params, err=-110
+[  310.666117] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  310.679829] msm_routing_get_copp_callback_event: ADM PP event queue is not initialized.
+[  310.690761] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  310.708047] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  310.725091] msm-ext-disp-audio-codec-rx soc:qcom,msm-ext-disp:qcom,msm-ext-disp-audio-codec-rx: msm_ext_disp_audio_type_get: codec_data, get_audio_edid_blk() or get_intf_id is NULL
+[  310.811710] msm_pcm_volume_ctl_get substream not found
+[  311.148130] type=1400 audit(1620451461.582:392): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[  311.306049] core_get_license_status: cmdrsp_license_result.result = 0x15 for module 0x131ff
+[  311.315008] core_set_license: Invalid cal block to send
+[  311.572242] type=1400 audit(1620451462.012:393): avc: denied { getattr } for pid=528 comm="systemd-journal" scontext=system_u:system_r:syslogd_t:s15:c0.c1023 tcontext=system_u:system_r:pulseaudio_t:s0-s15:c0.c1023 tclass=process permissive=0
+[
